@@ -22,7 +22,7 @@ public class Produto {
 
 
     @NotNull(message = "o atributo descrição pode ser vazio!")
-    @Size(min = 5, max = 100, message =  "O atributo descrição deve conter no mínimo 5 e no máximo 100 caracteres")
+    @Size(min = 8, max = 100, message =  "O atributo descrição deve conter no mínimo 8 e no máximo 100 caracteres")
     private String descricao;
 
     @NotNull( message = " Atributo preço é obrigatorio")
